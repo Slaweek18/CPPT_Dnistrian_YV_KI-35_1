@@ -23,26 +23,29 @@ public class Lab2DnistrianKI35
 		 size=scan.nextInt();
 		 char[][] arr=new char[size][];
 		 
-		for(int i=0;i<size;i++) {			
-			arr[i]=new char[size];
-			}
+		for(int i=0;i<size;i++) {	
 			
+			if(i%2!=0) {//Перевірка по парності, непарності
+				arr[i]= new char[size];
+			}
+
+		}
+	 
 		System.out.println("Enter a placeholder character: ");
 		String ch=scan.nextLine();
 		ch=scan.nextLine();
 		exit:
 		for(int i=0; i<size; i++) {
-			for(int j=0; j<arr[i].length; j++)
+			for(int j=0; j<size; j++)
 			{
 				if(ch.length()==1) {
-					
 					if(i%2!=0) {//Перевірка по парності, непарності
-					arr[i][j]=(char)ch.codePointAt(0);
-					}
-					else {arr[i][j]=' ' ;}
+					  arr[i][j]=(char)ch.codePointAt(0);
 					
 					  System.out.print(arr[i][j] + " ");
 					  fout.print(arr[i][j] + " ");
+					}
+					
 				}
 				else if(ch.length()==0) {
 					System.out.println("No character entered");
