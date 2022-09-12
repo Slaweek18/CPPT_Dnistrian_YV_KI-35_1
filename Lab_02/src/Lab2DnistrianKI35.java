@@ -41,7 +41,7 @@ public class Lab2DnistrianKI35
 				if(ch.length()==1) {
 					if(i%2!=0) {//Перевірка по парності, непарності
 					  arr[i][j]=(char)ch.codePointAt(0);
-					
+					 
 					  System.out.print(arr[i][j] + " ");
 					  fout.print(arr[i][j] + " ");
 					}
