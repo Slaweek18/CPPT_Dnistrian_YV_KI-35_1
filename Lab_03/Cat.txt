@@ -1,0 +1,5 @@
+The color of the cat's eyes: Blue
+The color of the cat's fur: Gray
+Type of cat fur: Short-haired
+You can pet the cat
+Сat petting time : 1 minute
