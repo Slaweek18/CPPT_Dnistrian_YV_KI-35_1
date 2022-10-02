@@ -1,4 +1,3 @@
-
 package KI35.Dnistrian.Lab4;
 import java.io.*;
 import java.util.Random;

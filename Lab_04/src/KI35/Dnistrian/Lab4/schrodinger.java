@@ -6,3 +6,4 @@ public interface schrodinger {
 	
 	void experiment();
 }
+

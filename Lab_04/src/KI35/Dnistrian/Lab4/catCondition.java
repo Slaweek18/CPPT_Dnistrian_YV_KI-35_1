@@ -8,4 +8,5 @@ public interface catCondition {
 	
 	public void isSick(float speed);
 	public void agree();
+	
 }
