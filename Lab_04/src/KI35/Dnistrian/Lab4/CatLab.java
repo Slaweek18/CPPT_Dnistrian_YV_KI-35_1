@@ -52,3 +52,4 @@ public class CatLab extends Cat implements catCondition,schrodinger {
 		else System.out.println("The cat is alive)))");
 	}
 }
+

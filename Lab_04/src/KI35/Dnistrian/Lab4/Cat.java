@@ -35,8 +35,8 @@ public abstract class Cat {
 	 */
 	public Cat() throws FileNotFoundException {
 		
-		eyes = new Eyes(Eyes.Regime.dilated,"Brown",120.0F);
-		paws=new Paws(35.5F, Paws.clawCondition.out);
+		eyes = new Eyes(Eyes.Regime.narrow,"Brown",120.0F);
+		paws=new Paws(35.5F, Paws.clawCondition.within);
 		fur = new Fur("White",5);
 		fout = new PrintWriter(new File("Cat.txt"));
 	}
@@ -340,8 +340,4 @@ class Fur{
 		return lengthFur;
 	}
 }
-
-
-
-
 
