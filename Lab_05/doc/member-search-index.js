@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"KI35.Dnistrian.Lab5","c":"ExceptionDiv0","l":"ExceptionDiv0()","u":"%3Cinit%3E()"},{"p":"KI35.Dnistrian.Lab5","c":"ExceptionDiv0","l":"ExceptionDiv0(String)","u":"%3Cinit%3E(java.lang.String)"}];updateSearchResults();
