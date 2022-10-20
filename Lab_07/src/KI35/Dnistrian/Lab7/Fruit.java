@@ -10,13 +10,12 @@ public class Fruit implements Product
 	 private String name;
 	 private int size;
 	 private int price;
-	 static int sum;
 	 public Fruit(String name, int size, int price)
 	 {
 		 this.name = name;
 	 	this.size = size;
 	 	this.price=price;
-	 	sum+=this.price;
+	 	
 	 }
 	
 	 public String getName()
